@@ -1,0 +1,11 @@
+<config>
+	<modules>
+        <DevBlog_MobileFpcFix>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Enterprise_PageCache/>
+            </depends>
+        </DevBlog_MobileFpcFix>
+	</modules>
+</config>

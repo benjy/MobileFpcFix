@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DevBlog_MobileFpcFix>
+            <version>0.0.1</version>
+            <depends>
+                <Enterprise_PageCache />
+            </depends>
+        </DevBlog_MobileFpcFix>
+    </modules>
+
+    <global>
+        <models>
+            <enterprise_pagecache>
+                <rewrite>
+                    <processor>DevBlog_MobileFpcFix_Model_Processor</processor>
+                </rewrite>
+            </enterprise_pagecache>
+        </models>
+    </global>
+    
+</config>
